@@ -3,7 +3,7 @@
     jcr:description="AEM Training project Locale template"
     jcr:primaryType="cq:Template"
     jcr:title="Locale Page Template"
-    allowedPaths="/content(/.*)?"
+    allowedPaths="/content/[^/]+(/.*)?"
     ranking="{Long}1">
     <jcr:content
         jcr:primaryType="cq:PageContent"
