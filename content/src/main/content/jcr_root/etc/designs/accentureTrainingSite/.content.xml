@@ -42,7 +42,7 @@
                 sling:resourceType="training-site/components/content/carousel"
                 description="[NewyorkNewyorkNewyorkNewyorkNewyorkNewyorkNewyorkNewyorkNewyorkNewyork,ParisParisParisParisParisParis,LALALALALALALALALALALA]"
                 imageUrl="[/content/dam/accentureTraining/angularjs.png,/content/dam/accentureTraining/paris.jpg,/content/dam/accentureTraining/chicago.jpg]"
-                imgCarousel="[{&quot;title&quot;:&quot;Newyork&quot;\,&quot;description&quot;:&quot;NewyorkNewyorkNewyorkNewyorkNewyorkNewyorkNewyorkNewyorkNewyorkNewyork&quot;\,&quot;imageUrl&quot;:&quot;/content/dam/accentureTraining/angularjs.png&quot;},{&quot;title&quot;:&quot;Paris&quot;\,&quot;description&quot;:&quot;ParisParisParisParisParisParis&quot;\,&quot;imageUrl&quot;:&quot;/content/dam/accentureTraining/paris.jpg&quot;},{&quot;title&quot;:&quot;LA&quot;\,&quot;description&quot;:&quot;LALALALALALALALALALALA&quot;\,&quot;imageUrl&quot;:&quot;/content/dam/accentureTraining/chicago.jpg&quot;}]"
+                imgCarousel="[{&quot;title&quot;:&quot;Newyork&quot;\,&quot;description&quot;:&quot;NewyorkNewyorkNewyorkNewyorkNewyorkNewyorkNewyorkNewyorkNewyorkNewyork&quot;\\,&quot;imageUrl&quot;:&quot;/content/dam/accentureTraining/angularjs.png&quot;},{&quot;title&quot;:&quot;Paris&quot;\,&quot;description&quot;:&quot;ParisParisParisParisParisParis&quot;\\,&quot;imageUrl&quot;:&quot;/content/dam/accentureTraining/paris.jpg&quot;},{&quot;title&quot;:&quot;LA&quot;\,&quot;description&quot;:&quot;LALALALALALALALALALALA&quot;\\,&quot;imageUrl&quot;:&quot;/content/dam/accentureTraining/chicago.jpg&quot;}]"
                 title="[Newyork,Paris,LA]"/>
         </homePage>
         <localePage jcr:primaryType="nt:unstructured">
