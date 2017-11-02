@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2016-02-17T14:33:14.464+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/wcm/core/templates/designpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Accenture Training Site"
+        sling:resourceType="wcm/core/components/designer">
+        <homePage jcr:primaryType="nt:unstructured">
+            <contentPar
+                jcr:lastModified="{Date}2016-02-02T11:35:14.565+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/parsys"
+                components="[group:General,group:Training-Site]">
+                <section jcr:primaryType="nt:unstructured"/>
+            </contentPar>
+            <topnav
+                jcr:lastModified="{Date}2016-02-04T17:51:29.420+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="training-site/components/content/topnav"
+                hierarchyLevel="2"
+                linkTitle="[Contact,Meet,Learn]"
+                linkUrl="[/content/traininSite/en/toolbar/facebookPage,/content/traininSite/en/toolbar/twitterPage,/content/traininSite/en/toolbar/contactUs]"
+                moreOptions="[{&quot;linkTitle&quot;:&quot;Contact&quot;\,&quot;linkUrl&quot;:&quot;/content/traininSite/en/toolbar/facebookPage&quot;},{&quot;linkTitle&quot;:&quot;Meet&quot;\,&quot;linkUrl&quot;:&quot;/content/traininSite/en/toolbar/twitterPage&quot;},{&quot;linkTitle&quot;:&quot;Learn&quot;\,&quot;linkUrl&quot;:&quot;/content/traininSite/en/toolbar/contactUs&quot;}]">
+                <logo
+                    jcr:lastModified="{Date}2016-02-04T16:49:29.597+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="training-site/components/content/logo"
+                    absParent="2"
+                    imageRotate="0"
+                    maxWidth="165"/>
+            </topnav>
+            <carousel
+                jcr:lastModified="{Date}2016-02-04T16:52:40.607+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="training-site/components/content/carousel"
+                description="[NewyorkNewyorkNewyorkNewyorkNewyorkNewyorkNewyorkNewyorkNewyorkNewyork,ParisParisParisParisParisParis,LALALALALALALALALALALA]"
+                imageUrl="[/content/dam/accentureTraining/angularjs.png,/content/dam/accentureTraining/paris.jpg,/content/dam/accentureTraining/chicago.jpg]"
+                imgCarousel="[{&quot;title&quot;:&quot;Newyork&quot;\,&quot;description&quot;:&quot;NewyorkNewyorkNewyorkNewyorkNewyorkNewyorkNewyorkNewyorkNewyorkNewyork&quot;\\,&quot;imageUrl&quot;:&quot;/content/dam/accentureTraining/angularjs.png&quot;},{&quot;title&quot;:&quot;Paris&quot;\,&quot;description&quot;:&quot;ParisParisParisParisParisParis&quot;\\,&quot;imageUrl&quot;:&quot;/content/dam/accentureTraining/paris.jpg&quot;},{&quot;title&quot;:&quot;LA&quot;\,&quot;description&quot;:&quot;LALALALALALALALALALALA&quot;\\,&quot;imageUrl&quot;:&quot;/content/dam/accentureTraining/chicago.jpg&quot;}]"
+                title="[Newyork,Paris,LA]"/>
+        </homePage>
+        <localePage jcr:primaryType="nt:unstructured">
+            <topnav
+                jcr:lastModified="{Date}2016-02-04T18:00:39.819+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="training-site/components/content/topnav"
+                hierarchyLevel="2"
+                linkTitle="[Facebook,Twitter,Activities]"
+                linkUrl="[/content/traininSite/en/toolbar/facebookPage,/content/traininSite/en/toolbar/twitterPage,/content/traininSite/en/toolbar/contactUs]"
+                moreOptions="[{&quot;linkTitle&quot;:&quot;Facebook&quot;\,&quot;linkUrl&quot;:&quot;/content/traininSite/en/toolbar/facebookPage&quot;},{&quot;linkTitle&quot;:&quot;Twitter&quot;\,&quot;linkUrl&quot;:&quot;/content/traininSite/en/toolbar/twitterPage&quot;},{&quot;linkTitle&quot;:&quot;Activities&quot;\,&quot;linkUrl&quot;:&quot;/content/traininSite/en/toolbar/contactUs&quot;}]">
+                <logo
+                    jcr:lastModified="{Date}2016-02-02T11:52:45.185+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="training-site/components/content/logo"
+                    absParent="3"
+                    imageReference="/content/dam/accentureTraining/accenture-320x192.png"
+                    imageRotate="0"
+                    maxWidth="165"
+                    width="100"/>
+            </topnav>
+        </localePage>
+        <trainingListing jcr:primaryType="nt:unstructured">
+            <contentParCol2
+                jcr:lastModified="{Date}2016-02-16T15:46:12.476+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/parsys"
+                components="[group:Training,group:Training-Site]">
+                <section jcr:primaryType="nt:unstructured"/>
+            </contentParCol2>
+            <contentParCol3
+                jcr:lastModified="{Date}2016-02-16T15:46:56.964+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/parsys"
+                components="[group:Training,group:Training-Site]">
+                <section jcr:primaryType="nt:unstructured"/>
+            </contentParCol3>
+            <contentParCol1
+                jcr:lastModified="{Date}2016-02-12T14:12:51.810+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/parsys"
+                components="[group:Training,group:Training-Site]">
+                <section jcr:primaryType="nt:unstructured"/>
+            </contentParCol1>
+            <contentParMain
+                jcr:lastModified="{Date}2016-02-16T15:45:53.575+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/parsys"
+                components="[group:General,group:Training-Site]">
+                <section jcr:primaryType="nt:unstructured"/>
+            </contentParMain>
+        </trainingListing>
+        <threeColumnPage jcr:primaryType="nt:unstructured">
+            <contentParCol1
+                jcr:lastModified="{Date}2016-02-16T15:44:10.678+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/parsys"
+                components="group:Training-Site">
+                <section jcr:primaryType="nt:unstructured"/>
+            </contentParCol1>
+            <contentParCol2
+                jcr:lastModified="{Date}2016-02-16T15:44:26.737+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/parsys"
+                components="group:Training-Site">
+                <section jcr:primaryType="nt:unstructured"/>
+            </contentParCol2>
+            <contentParCol3
+                jcr:lastModified="{Date}2016-02-16T15:44:39.180+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/parsys"
+                components="group:Training-Site">
+                <section jcr:primaryType="nt:unstructured"/>
+            </contentParCol3>
+        </threeColumnPage>
+        <twoColumnSidebar jcr:primaryType="nt:unstructured">
+            <contentParMain
+                jcr:lastModified="{Date}2016-02-16T15:47:39.259+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/parsys"
+                components="[group:General,group:Form]">
+                <section jcr:primaryType="nt:unstructured"/>
+            </contentParMain>
+            <contentParIntro
+                jcr:lastModified="{Date}2016-02-17T14:33:13.655+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/parsys"
+                components="[group:General,group:Training-Site]">
+                <section jcr:primaryType="nt:unstructured"/>
+            </contentParIntro>
+            <contentParSide
+                jcr:lastModified="{Date}2016-02-16T15:48:03.937+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/parsys"
+                components="[group:General,group:Training-Site]">
+                <section jcr:primaryType="nt:unstructured"/>
+            </contentParSide>
+        </twoColumnSidebar>
+    </jcr:content>
+    <clientlibs/>
+</jcr:root>
