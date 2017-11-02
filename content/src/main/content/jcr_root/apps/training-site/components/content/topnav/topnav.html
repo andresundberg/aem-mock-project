@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- Theme Made By www.w3schools.com - No Copyright -->
+      <title>Accenture Mock Project</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <meta data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}"
+	data-sly-unwrap></meta>
+	<meta data-sly-call="${clientlib.all @categories='accentureTrainingSite:base'}"
+	data-sly-unwrap></meta>
+   </head>
+   <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+      <!--**1**------navigation bar custom component--start-----******* -->
+      <nav class="navbar navbar-default navbar-fixed-top">
+         <div class="container-fluid">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>                        
+               </button>
+               <a class="navbar-brand" href="#myPage">Logo</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+               <ul class="nav navbar-nav navbar-right">
+                  <li class="nav navbar-nav navbar-left" data-sly-repeat="${currentPage.listChildren}">
+                    <a href="${item.path}.html">${item.title}</a>
+                </li>
+                  <li class="dropdown">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+                     <span class="caret"></span></a>
+                     <ul class="dropdown-menu">
+                        <li><a href="./TrainingDetail.html">Training Details</a></li>
+                        <li><a href="./SearchResults.html">Search Results</a></li>
+                        <li><a href="#">Sign-out</a></li>
+                     </ul>
+                  </li>
+                  <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+    </body>
+</html>
