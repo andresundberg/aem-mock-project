@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1509530391384
+Bnd-LastModified: 1509534500646
 Build-Jdk: 1.8.0_144
-Built-By: andre.l.sundberg
+Built-By: terese.sundman
 Bundle-Description: Maven Multimodule project for Global Jumpstart Train
  ing Site.
 Bundle-ManifestVersion: 2
