@@ -3,7 +3,7 @@
     jcr:description="AEM Training project Home page template"
     jcr:primaryType="cq:Template"
     jcr:title="Home Page Template"
-    allowedPaths="/content/training-site/[^/]+(/.*)?"
+    allowedPaths="/content/[^/]+[^/]+(/.*)?"
     ranking="{Long}1">
     <jcr:content
         jcr:primaryType="cq:PageContent"
